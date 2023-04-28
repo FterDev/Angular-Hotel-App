@@ -7,10 +7,12 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatCardModule} from '@angular/material/card';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { BookingsComponent } from './components/bookings/bookings.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BookingsComponent,
   ],
   imports: [
     BrowserModule,
